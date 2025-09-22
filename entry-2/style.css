@@ -11,11 +11,18 @@ h2 {
 .red-paragraph {
               color:brown
 }
-
+.red-paragraph {
+              font-family: sans-serif;
+}
 .green-paragraph {
                 color:aquamarine
 }
-
+.green-paragraph {
+                font-family: sans-serif;
+}
 .blue-paragraph {
                color:blue
+}
+.blue-paragraph {
+               font-family: sans-serif;
 }
