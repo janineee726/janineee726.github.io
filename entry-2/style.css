@@ -1,3 +1,21 @@
 body {
     background-color: lightblue;
 }
+
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 200;
+  font-size: large;
+}
+
+.red-paragraph {
+              color:brown
+}
+
+.green-paragraph {
+                color:aquamarine
+}
+
+.blue-paragraph {
+               color:blue
+}
