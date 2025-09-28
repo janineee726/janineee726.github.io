@@ -17,12 +17,14 @@ h3{
 }
 
 #rectangle{
-    width: 1700px;
-    height: 500px;
+    width: 700px;
+    height: 200px;
     background:coral;
 }
 
 h4{
     width: 500px;
     background-color: aliceblue;
+    font-size: 6vw;
+    margin-left: 100px;
 }
