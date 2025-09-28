@@ -17,8 +17,8 @@ h3{
   margin-left:50px;
 }
 
-.rectangle{
-    background-color: coral;
-  width: 100vw;
-  height: 100px;
+#rectangle{
+    width:200px;
+    height:100px;
+    background:coral;
 }
