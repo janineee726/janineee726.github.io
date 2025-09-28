@@ -16,3 +16,9 @@ h3{
   margin-top: 0px;
   letter-spacing: -0.04em; 
 }
+
+.rectangle{
+    background-color: coral;
+  width: 100vw;
+  height: 100px;
+}
