@@ -1,5 +1,6 @@
-html {background-color: black}
-
+body {
+    background-color: black;
+}
 body {
   font-family: 'Helvetica', sans-serif;
   font-weight: 700;
