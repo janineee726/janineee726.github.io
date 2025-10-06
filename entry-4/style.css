@@ -10,13 +10,13 @@ body {
 
 span{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 120px;
+    margin: 200px;
     color: white;
 }
 
 
 h4{
-    font-size: 45vw;
+    font-size: 34vw;
   margin-top: 15px;
   margin-left:30px;
   color: white;
@@ -27,6 +27,6 @@ h4{
     height: 800px;
     background:white;
     position: relative;
-    bottom: 380px;
+    bottom: 400px;
 }
 
