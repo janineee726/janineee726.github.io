@@ -30,3 +30,9 @@ h4{
     bottom: 400px;
 }
 
+img{
+    width:200px;
+    height:400px;
+    object-fit: cover;
+}
+
