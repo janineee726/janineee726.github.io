@@ -12,11 +12,12 @@ span{
     font-family: Arial, Helvetica, sans-serif;
     margin: 200px;
     color: white;
+    margin-left: 80px;;
 }
 
 
 h4{
-    font-size: 34vw;
+    font-size: 26vw;
   margin-top: 15px;
   margin-left:30px;
   color: white;
