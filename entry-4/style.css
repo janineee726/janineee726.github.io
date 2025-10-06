@@ -3,14 +3,14 @@ body {
 }
 body {
   font-family: 'Helvetica', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.3;
   letter-spacing: -0.03em; 
 }
 
 span{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 250px;
+    margin: 150px;
     color: white;
 }
 
@@ -22,8 +22,11 @@ h4{
   color: white;
 }
 
-#rectangle{
+.rectangle{
     width: 1500px;
     height: 800px;
     background:white;
+    position: relative;
+    bottom: 200px;
 }
+
