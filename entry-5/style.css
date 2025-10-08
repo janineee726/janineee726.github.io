@@ -1,0 +1,126 @@
+
+
+.container{
+    position:relative;
+    text-align:center;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Home{
+    position: absolute;
+    top:8px;
+    left:200px;
+}
+
+.About{
+    position:absolute;
+    top:8px;
+    left:420px;
+}
+
+.Urgent-Support{
+    position:absolute;
+    top:8px;
+    right:410px;
+}
+
+.FAQ{
+    position:absolute;
+    top:8px;
+    right:200px;
+}
+
+.help{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 150px;
+    padding:10px;
+    margin:auto;
+    border-radius: 20px;
+    transition: 0.2s;
+    transition-timing-function: (.11,.93,.69,.22);
+}
+
+.help:hover{
+    background-color: pink;
+}
+
+
+.part{
+    position:relative;
+    text-align:center;
+    color:white;
+}
+
+.part img {
+    width: 100%;
+    height: auto;
+}
+
+.part img:hover{
+    filter:blur(4px);
+    transition: 0.4s;
+}
+
+.YOUR{
+    position: absolute;
+    top:400px;
+    left:100px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+    opacity: 80%;
+}
+
+.SAFETY{
+    position:absolute;
+    top:400px;
+    right:100px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+    opacity: 80%;
+}
+
+
+.MATTERS{
+    position: absolute;
+    top:800px;
+    left:50px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+    opacity: 80%;
+}
+
+.TO{
+    position: absolute;
+    top:800px;
+    right:370px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+    opacity: 80%;
+}
+
+.US{
+    position: absolute;
+    top:800px;
+    right:50px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+    opacity: 80%;
+}
+
+
+@media screen and (max-width: 700px) {
+    
+       html{
+
+       background-color: pink;
+       }
+    
+}
