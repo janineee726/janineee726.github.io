@@ -135,6 +135,35 @@ ul li a:hover{
     color:cornsilk;
 }
 
+.myDiv {
+  position: absolute;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: pink;
+  animation-name: animateSquare;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+
+
+@keyframes animateSquare {
+  0% {
+    transform:rotate(0deg) scale(1);
+    background-color: plum;
+  }
+  
+  100% {
+    transform:rotate(360deg) scale(5);
+    background-color: olive;
+  }
+}
+
 .contianer2{
     display: flex;
     column-gap: 80px;
@@ -163,6 +192,7 @@ ul li a:hover{
     border-radius: 20px;
     box-shadow: 0 0 20px;
     font-size: 30px;
+
 
     transition: 0.2s;
     transition-timing-function: (.11,.93,.69,.22);
