@@ -142,7 +142,7 @@ ul li a:hover{
   width: 50px;
   height: 50px;
   border-radius: 40px;
-  background-color: pink;
+  background-color: greenyellow;
   animation-name: animateSquare;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -155,12 +155,12 @@ ul li a:hover{
 @keyframes animateSquare {
   0% {
     transform:rotate(0deg) scale(1);
-    background-color: plum;
+    background-color: pink;
   }
   
   100% {
     transform:rotate(360deg) scale(5);
-    background-color: olive;
+    background-color: greenyellow;
   }
 }
 
