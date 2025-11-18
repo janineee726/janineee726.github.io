@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%), url(page.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    background-color: black;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float:left;
+    height: 70px;
+}
+
+.logo{
+    color:darkolivegreen;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:blanchedalmond;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+     color: darkolivegreen;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left:270px;
+}
+
+.srch{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid blanchedalmond;
+    margin-top: 13px;
+    color:cornsilk;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: darkolivegreen;
+    border: 2px solid darkolivegreen;
+    margin-top: 13px;
+    color:cornsilk;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline:none;
+}
+
+.srch:focus{
+    outline:none;
+}
+
+.button{
+    background-color: deeppink;
+    color:aliceblue;
+    border: 2px solid;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 12px;
+}
+
+.button:hover{
+    background-color: aliceblue;
+    color:deeppink;
+}
+
+.h3{
+    color:aliceblue;
+}
