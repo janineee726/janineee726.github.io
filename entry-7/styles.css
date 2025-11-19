@@ -126,3 +126,8 @@ ul li a:hover{
 .h3{
     color:aliceblue;
 }
+
+#message {
+    color: white;
+    font-size: 36px;
+}
