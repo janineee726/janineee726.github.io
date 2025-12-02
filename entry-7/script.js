@@ -7,13 +7,18 @@ let messages = [
     "I Love You"
 ]
 
-let randomMessage = Math.floor(Math.random() * messages.length);
-console.log(randomMessage);
-console.log(messages[randomMessage])
-
 let messageContainer = document.getElementById("message");
+let buttonElement = document.getElementById("click-me");
 
-messageContainer.innerHTML = messages[randomMessage];
+messageContainer.innerHTML = messages[Math.floor(Math.random() * messages.length)];
+
+function updateMessage() {
+    messageContainer.innerHTML = messages[Math.floor(Math.random() * messages.length)];
+}
+
+
+
+
 
 
 // $("#click-me)").click(function(){
