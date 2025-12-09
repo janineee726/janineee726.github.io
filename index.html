@@ -10,17 +10,19 @@
 
 <body>
      <div class="main">
-          <div class="navbar">
+          <canvas id="particleCanvas"></canvas>
+          <div class="navbar fade-in-down">
              <div class="icon">
                     <h2 class="logo">TalkLife</h2>
              </div>
               <div class="menu">
                 <ul>
                     <li><a href="entry-1/index.html">HOME</a></li>
-                    <li><a herf="entry-2/index.html">ABOUT</a></li>
-                    <li><a herf="entry-3/index.html">SERVICE</a></li>
-                    <li><a herf="entry-4/index.html">CONTACT</a></li>
-                    <li><a herf="entry-5/index.html">FAQ</a></li>
+                    <li><a href="entry-2/index.html">ABOUT</a></li>
+                    <li><a href="entry-3/index.html">SERVICE</a></li>
+                    <li><a href="entry-4/index.html">CONTACT</a></li>
+                    <li><a href="entry-5/index.html">FAQ</a></li>
+                    <li><a href="entry-7/index.html">QUESTIONS</a></li>
                 </ul>
               </div>
 
@@ -30,18 +32,19 @@
               </div>
           </div>
           <div class="content">
-                 <h1>Your Safety <br><span>Matters</span> <br>To Us</h1>
-                 <p class="par">This is your safe space to share the ups and downs of life.
+                 <div class="content-left">
+                 <h1 class="fade-in-left">Your Safety <br><span class="highlight-text">Matters</span> <br>To Us</h1>
+                      <div class="button-group">
+                           <button class="cn pulse-btn"><a href="entry-6/index.html">JOIN US</a></button>
+                           <button class="cn message-btn" id="messageBtn">Show Message</button>
+                      </div>
+                      <div class="message-display fade-in-up" id="messageDisplay"></div>
+                 </div>
+                 <div class="content-right">
+                 <p class="par fade-in-up">This is your safe space to share the ups and downs of life.
                     <br> If you need urgent help, 
                     <br> please call your local emergency services.</p>
-
-                    <botton class="cn"><a href="entry-6/index.html">JOIN US</a></botton>
-
-          
-                   
-
-
-
+                 </div>
           </div>
      </div>
 
