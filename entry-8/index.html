@@ -4,23 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stigma</title>
+    <title>Stigma - Answers</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
      <div class="main">
+          <canvas id="particleCanvas"></canvas>
+          <div class="animated-bg"></div>
           <div class="navbar">
              <div class="icon">
-                    <h2 class="logo">TalkLife</h2>
+                    <a href="../index.html"><h2 class="logo">TalkLife</h2></a>
              </div>
               <div class="menu">
                 <ul>
-                    <li><a href="entry-1/index.html">HOME</a></li>
-                    <li><a herf="entry-2/index.html">ABOUT</a></li>
-                    <li><a herf="entry-3/index.html">SERVICE</a></li>
-                    <li><a herf="entry-4/index.html">CONTACT</a></li>
-                    <li><a herf="entry-5/index.html">FAQ</a></li>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../entry-2/index.html">ABOUT</a></li>
+                    <li><a href="../entry-3/index.html">SERVICE</a></li>
+                    <li><a href="../entry-4/index.html">CONTACT</a></li>
+                    <li><a href="../entry-5/index.html">FAQ</a></li>
+                    <li><a href="../entry-7/index.html">QUESTIONS</a></li>
                 </ul>
               </div>
 
@@ -28,25 +31,21 @@
                 <input class="srch" type="search" name="" placeholder="Type To Text">
                 <a href="#"><button class="btn">Search</button></a>
               </div>
+          </div>
 
-              <div id="screen">You Are Not Alone.</div>
-              <p>Input that changes the background</p>
-<input type="color" id="color-input" value="#0000FF" oninput="changeColor()">
-
-<!-- INPUT THAT CHANGES THE TEXT -->
-<p>Input that changes the text</p>
-<input type="text" id="text-input" placeholder="Type here!" oninput="changeText()">
-
-<!-- INPUT THAT CHANGES THE SQUARE SIZE -->
-<p>Input that changes the square size</p>
-<input id="range-input" type="range" min="30" max="400" value="100" oninput="changeSize()">
-
-<!-- INPUT THAT CHANGES THE TEXT COLOR -->
-<p>Input that toggles the class</p>
-<input type="button" id="button-input" value="Click me!" onclick="changeClass()">
-
-
-            
-
+          <div class="content-area">
+              <div class="question-section">
+                  <h3 id="questionTitle" class="question-title"></h3>
+              </div>
+              <div class="answer-section">
+                  <p id="answerText" class="answer-text"></p>
+              </div>
+              <div class="back-button">
+                  <a href="../entry-7/index.html" class="back-link">← Back to Questions</a>
+              </div>
+          </div>
+     </div>
 
 <script src="script.js"></script>
+</body>
+</html>
