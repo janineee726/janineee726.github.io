@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'AnonymousPro';
+    src: url('../fonts/ttf/AnonymousPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 *{
     margin:0;
     padding:0;
+    font-family: 'AnonymousPro', monospace;
 }
 
 .main{
@@ -27,7 +35,7 @@
 .logo{
     color:darkolivegreen;
     font-size: 35px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'AnonymousPro', monospace;
     padding-left: 20px;
     float:left;
     padding-top: 10px;
@@ -56,7 +64,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color:blanchedalmond;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'AnonymousPro', monospace;
     font-weight: bold;
     transition: 0.4s ease-in-out;
 
@@ -73,7 +81,7 @@ ul li a:hover{
 }
 
 .srch{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'AnonymousPro', monospace;
     width: 200px;
     height: 40px;
     background: transparent;
@@ -129,7 +137,7 @@ ul li a:hover{
     top:540px;
     left:100px;
     font-weight:700;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'AnonymousPro', monospace;
     font-size: 2.5vw;
     opacity: 80%;
 
@@ -140,7 +148,7 @@ ul li a:hover{
     top:580px;
     left:100px;
     font-weight:700;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'AnonymousPro', monospace;
     font-size: 8vw;
     opacity: 80%;
 }
@@ -151,7 +159,7 @@ ul li a:hover{
     top:750px;
     left:100px;
     font-weight:700;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'AnonymousPro', monospace;
     font-size: 1vw;
     opacity: 80%;
 }
@@ -167,23 +175,24 @@ ul li a:hover{
     width:60%;
     margin: 10rem auto 0 auto;
     top:200%;
+    margin-top: 300px;
 }
 .section h2{
     margin:0;
     color:black;
     margin-top: 100px;
     font-size: 4.5vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+    font-family: 'AnonymousPro', monospace;
 }
 .section p{
     color:black;
     margin-top: 90px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'AnonymousPro', monospace;
 }
 
 .text-primary{
     color:darkolivegreen;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'AnonymousPro', monospace;
 }
 
 .img_girl{
@@ -208,7 +217,7 @@ ul li a:hover{
     top:205%;
     background-color: black;
     color:white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'AnonymousPro', monospace;
     padding:30px;
 }
 
@@ -225,7 +234,7 @@ ul li a:hover{
 
 #details .row .details-content2 .item h3{
     margin-bottom: 8px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'AnonymousPro', monospace;
 }
 
 *{
@@ -252,7 +261,7 @@ ul li a:hover{
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'AnonymousPro', monospace;
 }
 
 .footer-heading{
@@ -269,7 +278,7 @@ ul li a:hover{
     color:cornsilk;
     text-decoration: none;
     margin-bottom: 0.5 rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'AnonymousPro', monospace;
 }
 
 .footer-heading a:hover{
@@ -307,7 +316,7 @@ ul li a:hover{
     border:none;
     color:cornsilk;
     font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'AnonymousPro', monospace;
 
 }
 
