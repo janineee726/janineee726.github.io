@@ -1,70 +1,59 @@
- <!DOCTYPE html>
- <html lang="en">
-
- <head>
-     
-     <link href="style.css"rel="stylesheet">
-
- </head>
-
- <body>
-
-     <div class="container">
-        <div class="Home">Home</div>
-        <div class="About">About</div>
-        <div class="Urgent-Support">Urgent Support</div>
-        <div class="FAQ">FAQ</div>
-     </div>
-
-     <div class="help">Get Immediate Help</div>
-
-<div class="part">
-            <img src="image/people.jpg" alt="">
-            <div class="YOUR">YOUR</div>
-            <div class="SAFETY">SAFETY</div>
-            <div class="MATTERS">MATTERS</div>
-            <div class="TO">TO</div>
-            <div class="US">US</div>
-</div>
 
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stigma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="main">
+          <div class="navbar">
+             <div class="icon">
+                    <a href="../index.html"><h2 class="logo">TalkLife</h2></a>
+             </div>
+              <div class="menu">
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../entry-2/index.html">ABOUT</a></li>
+                    <li><a href="../entry-3/index.html">SERVICE</a></li>
+                    <li><a href="../entry-4/index.html">CONTACT</a></li>
+                    <li><a href="../entry-5/index.html">FAQ</a></li>
+                    <li><a href="../entry-7/index.html">QUESTIONS</a></li>
+                </ul>
+              </div>
+
+              <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To Text">
+                <a href="#"><button class="btn">Search</button></a>
+              </div>
+          </div>
+
+          <div class="music-player-container">
+               <div class="record-player">
+                    <div class="record" id="record">
+                         <img src="image/f1.png" alt="Record Label" class="record-image">
+                         <div class="record-center"></div>
+                         <div class="record-grooves"></div>
+                    </div>
+                    <div class="player-controls">
+                         <button class="play-btn" id="playBtn">
+                              <span id="playIcon">▶</span>
+                         </button>
+                         <div class="music-info">
+                              <div class="song-title" id="songTitle">No music selected</div>
+                              <div class="song-artist" id="songArtist">Click play to start</div>
+                         </div>
+                    </div>
+                    <audio id="audioPlayer" preload="auto"></audio>
+               </div>
+          </div>
 
 
-
-
-<div class="footer-container">
-      <div class="footer">
-         <div class="footer-heading footer-1">
-            <h2>About Us</h2>
-            <a href="#">Blog</a>
-            <a href="#">Demo</a>
-            <a href="#">Customers</a>
-            <a href="#">Investors</a>
-            <a href="#">Terms of Service</a>
-         </div>
-         <div class="footer-heading footer-2">
-            <h2>Contact Us</h2>
-            <a href="#">Support</a>
-            <a href="#">Emergency Help</a>
-         </div>
-         <div class="footer-heading footer-3">
-            <h2>Social Media</h2>
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">Youtube</a>
-            <a href="#">Twitter</a>
-         </div>
-
-         <div class="footer-email-form">
-            <h2>Join Our Community</h2>
-            <input type="email" placeholder="Enter your email address" id="footer-email">
-            <input type="sumbit" value="Sign Up" id="footer-email-btn">
-
-         </div>
-
-      </div>
-     </div>
-
-
+     <script src="music.js"></script>
 </body>
- </html>
+</html>
